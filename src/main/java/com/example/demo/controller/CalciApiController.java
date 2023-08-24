@@ -10,6 +10,7 @@ public class CalciApiController {
    // local prod 
 	@GetMapping("/getDetails")
 	public String getDetails() {
+		//remote add
 		return null;
 	}
 }
