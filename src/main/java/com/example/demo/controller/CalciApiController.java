@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+rpackage com.example.demo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CalciApiController {
 
-     //prod comment
+     //server prod comment
 
     
 	@GetMapping("/getTest")
