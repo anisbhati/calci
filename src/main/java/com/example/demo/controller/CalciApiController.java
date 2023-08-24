@@ -6,11 +6,5 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CalciApiController {
-
-   // local prod 
-	@GetMapping("/getDetails")
-	public String getDetails() {
-		//remote add
-		return null;
 	}
-}
+
