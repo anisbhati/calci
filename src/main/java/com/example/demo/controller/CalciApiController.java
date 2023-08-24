@@ -12,6 +12,7 @@ public class CalciApiController {
 	@GetMapping("/getDetails")
 	public String getDetails() {
 		//remote add
+		//local dev
 		return null;
 	}
 }
