@@ -20,6 +20,5 @@ public class CalciApiController {
 	@GetMapping("/add/{a}/{b}")
 	public String add(@PathVariable int a,@PathVariable int b) {
 		return "add is "+(a+b);
-
 	}
 }
