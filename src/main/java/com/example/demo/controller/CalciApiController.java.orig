@@ -12,20 +12,14 @@ public class CalciApiController {
 		return "running.........";
 	}
 	
-
-	@GetMapping("/mul/{a}/{b}")
-	public String add(@PathVariable int a,@PathVariable int b) {
-		return "mul is "+(a*b);
-        }
-
+<<<<<<< HEAD
 	@GetMapping("/sub/{a}/{b}")
 	public String sub(@PathVariable int a,@PathVariable int b) {
 		return "sub is "+(a-b);
-	}
+=======
 	@GetMapping("/add/{a}/{b}")
 	public String add(@PathVariable int a,@PathVariable int b) {
 		return "add is "+(a+b);
-
-
+>>>>>>> dev
 	}
 }
